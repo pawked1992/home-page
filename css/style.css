@@ -1,0 +1,162 @@
+body{
+	overflow-x: hidden;
+}
+[data-magellan-expedition], [data-magellan-expedition-clone]{
+	background:#000;
+}
+
+.row{
+	max-width: 100vw;
+}
+/*================================Style for home==================================================*/
+#home{
+	animation: animation_home 10s infinite;
+	color: #fff;
+	min-height: 100vh;
+	width: 100vw;
+}
+
+#home > div{
+	height: 100vh !important;
+	text-align: center;
+}
+
+#home img{
+	margin-top: 16%;
+}
+
+#home p{
+	font-size: large;
+	margin-top: 30%;
+}
+
+/*================================Style for skills==================================================*/
+
+#skills{
+	animation: animation_skills 10s infinite;
+	min-height: 100vh;
+	padding-top: 30px;
+	width: 100vw;
+}
+
+#skills > h1,h2,h3{
+	margin-top: 30px;
+}
+
+.good-skills{
+	height: 7.8rem;
+	margin: 15px;
+}
+.ngood-skills{
+	height: 5rem;
+	margin: 15px;
+}
+.plan-skills{
+	height: 2rem;
+	margin: 15px;
+}
+
+
+
+/*================================Style for about me==================================================*/
+#Portfilio{
+	background:#AA6C39;
+	min-height: 100vh;
+	width: 100vw;
+}
+
+/*================================Style for contact==================================================*/
+
+#contact{
+	background:#2D882D;
+	min-height: 100vh;
+	padding-top: 10rem;
+	width: 100vw;
+}
+.button{
+	background-color: 	#696969;
+}
+
+.social{
+	max-height:50px;
+	vertical-align:sub;
+	color: #1a1a1a;
+}
+.social img{
+	max-height:50px;
+}
+#socials a{
+	color:#000;
+}
+#socials{
+	padding-top:3rem;
+}
+#socials row{
+	margin-bottom:15px;
+}
+
+#socials{
+	color: #597150;
+}
+
+textarea {
+	background-color: #2D882D;
+	border: #000000 solid 2px;
+	max-width: 100%;
+	min-height: 140px;
+}
+fieldset {
+    border: 3px solid #DDDDDD;
+    border-radius: 21px;
+    border-color: black;
+}
+
+input{
+	background-color: #2D882D !important;
+	border: #000000 solid 2px !important;
+}
+
+.button{
+	border: solid black 2px !important;
+}
+
+.button:hover{
+	background-color: #003f54 !important;
+}
+
+.button:active{
+	background-color: #003f54 !important;
+}
+
+::-webkit-input-placeholder {
+	color: #fff;
+}
+
+:-moz-placeholder {
+	color: #fff;
+}
+
+::-moz-placeholder {
+	color: #fff;
+}
+
+:-ms-input-placeholder {
+	color: #fff;
+}
+
+
+/*=================================colors for backgrounds============================================================= */
+
+@keyframes animation_home {
+	0%,100% {background-color: #0038c7}
+	25% {background-color: #2F72AA}
+	50% {background-color: #08497F}
+	75% {background-color: #0B5FA5}
+}
+
+@keyframes animation_skills {
+	0%, 100%{background-color: #8A5D4A}
+	25% {background-color: #647786}
+	50% {background-color: #D0B898}
+	75% {background-color: #90ABA0}
+}

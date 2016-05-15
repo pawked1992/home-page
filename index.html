@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/motion-ui.css">
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+  	<div data-magellan-expedition="fixed">
+        <dl class="sub-nav">
+            <dd data-magellan-arrival="home" class="active"><a href="#home">O mnie</a></dd>
+	        <dd data-magellan-arrival="skills"><a href="#skills">Skills</a></dd>
+            <dd data-magellan-arrival="contact"><a href="#contact">Contact</a></dd>
+        </dl>
+    </div>
+    <section id="home" data-magellan-destination="home" name="home" class="row">
+        <div class="medium-6 columns hide-for-small">
+            <img src="img/psd-html5-css3.png" alt="">
+        </div>
+        <div class="small-12 medium-6 columns">
+            <p>
+                Obecnie początkujący webdeveloper. Od kilku miesięcy zajmuję się kodoweniem fronendu. Moje projekty opierają się o gotowe projekty psd. Staram się stale rozwijać swoje umiejętności bo tylko samodoskonalenie gwarantuje przyszły sukces
+            </p>
+        </div>
+    </section>
+    
+    <section id="skills" data-magellan-destination="skills" name="skills" class="row">
+        <div class="row text-center">
+            <h1>Umiejętności</h1>
+            <a href="#" data-reveal-id="html-css-modal">
+                <img class="good-skills" src="img/html5.png">
+                <img class="good-skills" src="img/css3.png">
+            </a>
+            <a href="#" data-reveal-id="foundation-modal">
+                <img class="good-skills" src="img/foundation.svg">
+                <img class="good-skills" src="img/rwd.png">
+            </a>
+            <a href="#" data-reveal-id="photoshop-modal">
+                <img class="good-skills" src="img/ps.png">
+            </a>
+            <a href="#" data-reveal-id="muse-modal">
+                <img class="good-skills" src="img/muse.png">
+            </a>
+        </div>
+        <div class="row text-center">
+            <h2>Rozwijane</h2>
+            <img class="ngood-skills" src="img/bootstrap.png">
+            <img class="ngood-skills" src="img/mysql.png">
+            <img class="ngood-skills" src="img/sass.png">
+            <img class="ngood-skills" src="img/less.png">
+            <img class="ngood-skills" src="img/js.png">
+            <img class="ngood-skills" src="img/jQurery.gif">
+        </div>
+        <div class="row text-center">
+            <h3>Plany</h3>
+            <img class="plan-skills" src="img/angular.png">
+        </div>
+
+        <div id="foundation-modal" class="reveal-modal" data-reveal aria-hidden="true" role="dialog">
+            <h2>Zurb Foundation</h2>
+            <p>Przygodę z Zurb Foundation rozpoczołem w czasie projektu realizowanego na stażu. PRojekt wymagał stworzenia wersji Desktop jak i Mobile wersji storny firmy.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+        <div id="html-css-modal" class="reveal-modal" data-reveal aria-hidden="true" role="dialog">
+            <h2>Html5 oraz CSS3</h2>
+            <p>Umiejętność tworzenia kodu Html oraz CSS nabyłem w czasie nauki w technikum informatycznym oraz na studiach. Aktualnie rozwijam się w kierunku tworzenia kodu semantycznie poprawnego.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+        <div id="photoshop-modal" class="reveal-modal" data-reveal aria-hidden="true" role="dialog">
+            <h2>Adobe Photoshop</h2>
+            <p>Posiadam znajomość Adobe Photoshop pozwalający na cięcie plików psd. Tę umiejętość zdobyłem w czasie stażu odbytego na trzecim roku studiów.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+        <div id="muse-modal" class="reveal-modal" data-reveal aria-hidden="true" role="dialog">
+            <h2>Adobe Muse</h2>
+            <p>Umiejętność posługiwania się Adobe Muse opanowełem w stopniu wystarczającym do tworzenia stron WWW. Wykorzystałem ją do stworzenia strony domowej firmy kamieniarskiej zawartej w moim protfolio.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+        </section>
+
+    
+        <section id="contact" class="row" data-magellan-destination="contact" name="contact" class="row">
+            <h1 class="text-center">Kontakt</h1>
+            <div class="small-12 medium-5 columns medium-offset-1">
+              <form action="MAILTO:pawked1992@gmail.com" method="post" enctype="text/plain">
+                  <fieldset>
+                      <legend>Formularz kontaktowy</legend>
+                          <input type="text" name="name" placeholder="Nazwa">
+                          <input type="email" name="email" placeholder="Adres email">
+                          <textarea type="text" name="message" placeholder="Tekst wiadomości"></textarea>
+                            <input type="submit" value="Wyślij" class="button radius">
+                    </fieldset>
+                </form>
+            </div>
+              <div id="socials" class="small-12  medium-4 columns text-justify">
+                <a href="https://facebook.com/kedzierski92"><div class="row social"><img src="img/ico/fi-social-facebook.svg">Facebook</div></a>
+                <a href="https://github.com/pawked1992"><div class="row social"><img src="img/ico/fi-social-github.svg">Github</div></a>
+                <a href="https://plus.google.com/u/0/109022826500902165446"><div class="row social"><img src="img/ico/fi-social-google-plus.svg">Google+</div></a>
+                <div class="row social"><img src="img/ico/fi-mail.svg">pawked1992@gmail.com</div>
+                <div class="row social"><img src="img/ico/fi-telephone.svg">797 470 707</div>
+            </div>
+        </section>
+    
+	
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
